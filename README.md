@@ -1,10 +1,12 @@
-# Core skills program - week 8 - Process predictions and optimisation over time
+# Core skills program - week 8 - Optimisation and special data types
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/core-skills/08-time-network-analysis.git/master)
 
- The aim of today's session will be to ... **todo**: fill this out with aims <!-- generalize the concepts for unidimensional data we learnt about last week to multidimensional data types, including ideas like central tendency, dispersion and correlations. We'll also introduce approaches to reduce the dimensionality of a dataset - that is (a) how we can identify when a dataset can be represented accurately with a smaller number of variables, and (b) how we can identify the variables that contain the most information, with techniques like PCA/PLS, MDS, SOFM and clustering. -->
+The aim of today's session will be to provide an introduction to certain common "special data types", and also give an overview of the basic ideas behind optimisation. We will look at the general purpose optimisation techniques known as Genetic Algorithms and design out own simple examples. The remainder of the session will focus on two special data types: time series, and networks. We have seen the basic ideas behind both types of data in previous weeks, but in this week we will build on those ideas with the specific purposes of predicting and simulating time series, and optimising network performance.
 
-You should aim to understand ... **todo** fill this out with learning outcomes<!-- the similarities and differences between univariate and multivariate data settings (you'll still need to be able to an EDA on multivatiate data for example). You should also aim to understand the basis of dimensionality reductions, execute measures of correlations, as well as understanding when correlations might be spurious. -->
+You should aim to understand (1) optimisation in the context of computation - what optimisation can do and how it does it, (2) simulation and prediction of time series (how to do it and how these two things differ), and (3) quantify, characterise and visualise networks using the networkx package. 
+
+We will finish the day by working through a case study which brings all these ideas to optimise the performance and maintanence of a meteroploitan utility network. At the end of the case study you will be able to idenitfy key challenges and straetgies to understand and model the performance of interconencted systems.
 
 ## Pre-session Reading & Resources
 
